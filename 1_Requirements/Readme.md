@@ -5,7 +5,9 @@
 Playing Games has become a modern trend as it helps people to use their creativity while developing their imagination, dexterity, and physical, cognitive, and emotional strengths.
 This is a gaming application whcih prompts the user to select between games and to play accordingly. This application includes Wheel of Fortune and Tic-Tac-Toe games as of now.
 
-![Game_App](game_app.png)
+<p align="center">
+  <img width="600" height="400" src="game_app.png">
+</p>
 
 ## Research
 
@@ -27,8 +29,9 @@ The user can select either Wheel of fortune or Tic-Tac-Toe
 
 ## Defining the System :
 
-
-![UI](game_2.png)
+<p align="center">
+  <img width="600" height="400" src="game_2.png">
+</p>
 
 The system consists of two games, Wheel of Fortune and Tic-Tac-Toe. The user can enter his choice of his game and play accordingly.
 
@@ -41,7 +44,10 @@ Scrabble is a classic board game played by two or four players together. The gam
 Tic-Tac-Toe is a tiny game created by Mike Stampone. It is a minimalist take on the classic paper-and-pencil game for two players. Users can take turns marking the Xs and Os in the 3x3 grid. The first mark must be X and the second is O. Players win by placing three of their marks in either a horizontal, vertical or diagonal row. If neither player can place three in a row, the program declares a cat game.
 
 # SWOT Analysis 
-![SWOT](game_3.png)
+
+<p align="center">
+  <img width="600" height="400" src="game_3.png">
+</p>
 
 # 4W's and 1'H
 
