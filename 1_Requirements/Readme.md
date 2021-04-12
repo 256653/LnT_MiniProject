@@ -29,6 +29,7 @@ The user can select either Wheel of fortune or Tic-Tac-Toe
 
 
 ![UI](game_2.png)
+
 The system consists of two games, Wheel of Fortune and Tic-Tac-Toe. The user can enter his choice of his game and play accordingly.
 
 **Scrabble :**
