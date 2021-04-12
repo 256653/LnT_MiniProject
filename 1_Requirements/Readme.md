@@ -6,7 +6,7 @@ Playing Games has become a modern trend as it helps people to use their creativi
 This is a gaming application whcih prompts the user to select between games and to play accordingly. This application includes Wheel of Fortune and Tic-Tac-Toe games as of now.
 
 <p align="center">
-  <img width="600" height="400" src="game_app.png">
+  <img width="600" height="400" src="game_1.png">
 </p>
 
 ## Research
