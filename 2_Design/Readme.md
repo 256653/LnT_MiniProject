@@ -10,7 +10,7 @@
 - **Use case Diagram :**
 
 <p align="center">
-  <img width="450" height="650" src="use_case.png">
+  <img width="550" height="450" src="use_case.png">
 </p>
 
 ## Low Level Design
