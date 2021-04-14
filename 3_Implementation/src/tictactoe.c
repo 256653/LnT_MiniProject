@@ -9,7 +9,7 @@
  *
  */
 
-#include "C:\Users\NAIK\OneDrive\Documents\LnT_MiniProject\3_Implementation\inc\tictactoe.h"
+#include "tictactoe.h"
 
 char matrix[3][3];
 char p1[10],p2[10];
