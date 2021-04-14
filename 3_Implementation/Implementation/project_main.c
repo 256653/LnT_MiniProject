@@ -1,4 +1,4 @@
-#include "C:\Users\NAIK\OneDrive\Documents\LnT_MiniProject\3_Implementation\inc\tictactoe.h"
+#include "tictactoe.h"
 //#include "handcricket.h"
 #include <stdio.h>
 #include <time.h>
@@ -17,7 +17,7 @@ int main()
     {
         case 1 : tictactoe();
         break;
-        /*case 2:handcricket();
+        /*case 2: handcricket();
         break;*/
     }
     printf("Hope you enjoyed..!!");
