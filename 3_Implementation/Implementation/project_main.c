@@ -1,4 +1,4 @@
-#include "C:\Users\NAIK\OneDrive\Documents\LnT_MiniProject\3_Implementation\inc\tictactoe.h"
+#include "tictactoe.h"
 //#include "handcricket.h"
 #include <stdio.h>
 #include <time.h>
