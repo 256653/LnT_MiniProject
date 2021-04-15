@@ -5,10 +5,10 @@ Build | Code Quality | Unity | [Git Inspector](using github.io option)| Codacy
 # ABOUT
 A gaming application which provides user an option to select between two games, that is Tic-Tac-Toe and Guess the number.
 
-### Tic-Tac-Toe
+**Tic-Tac-Toe**
 Tic-Tac-Toe  is a minimalist take on the classic paper-and-pencil game for two players. Users can take turns marking the Xs and Os in the 3x3 grid. The first mark must be X and the second is O. Players win by placing three of their marks in either a horizontal, vertical or diagonal row. If neither player can place three in a row, the program declares a cat game.
 
-### Guess the Number
+**Guess the Number**
 Guess the number is a game in which the user has to guess a number assigned by the system by using the directions given by the system.
 
 ## Folder Structure
@@ -28,9 +28,6 @@ Guess the number is a game in which the user has to guess a number assigned by t
 ## Learning Resources
 
 1. [markdown sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-
 2. [markdown basics](https://guides.github.com/features/mastering-markdown/)
-
 3. [git inspector](https://github.com/ejwa/gitinspector)
-
 4. [github workflow](https://docs.github.com/en/actions/learn-github-action)
