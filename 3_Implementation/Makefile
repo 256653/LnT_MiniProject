@@ -30,8 +30,8 @@ TEST_OUTPUT = build/Test_game.out
 
 # All include folders with header files
 
-INC = -I inc\
--I unity
+INC = -Iinc\
+-Iunity
 
 #Library Inlcudes
 #if working with CUnit 
