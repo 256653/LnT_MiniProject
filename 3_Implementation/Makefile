@@ -7,7 +7,7 @@ BUILD = build
 # All source code files
 SRC = project_main.c\
 src/tictactoe.c\
-src/guessnumber.c\
+src/guessnumber.c
 
 # All test source files
 TEST_SRC = test/test.c\

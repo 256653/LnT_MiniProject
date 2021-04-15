@@ -93,21 +93,21 @@ If the user selects Tic-Tac-Toe:
 ## High Level requirements
 | ID | Description | Category |
 | ----- | ----- | ----- |
-| HR01 | System shall allow user to select between two games. | Technical |
-| HR02 | In Tic-Tac-Toe game, system shall allow user to enter his/her details. | Technical |
-| HR03 | The system should display the current status of the Tic-Tac-Toe board after every move from the user/s | Technical |
-| HR04 | System shall decide the winner | Technical |
-| HR05 | In Guess the number game, the system shall allow user to enter his/her details | Technical |
-| HR06 | The system shall tell the user about the current status of the guessed number | Technical |
-| HR07 | The system shall decide the winner based on the number of ateeempts | Technical |
+| HRO1 | System shall allow user to select between two games. | Technical |
+| HRO2 | In Tic-Tac-Toe game, system shall allow user to enter his/her details. | Technical |
+| HRO3 | The system should display the current status of the Tic-Tac-Toe board after every move from the user/s | Technical |
+| HRO4 | System shall decide the winner | Technical |
+| HRO5 | In Guess the number game, the system shall allow user to enter his/her details | Technical |
+| HRO6 | The system shall tell the user about the current status of the guessed number | Technical |
+| HRO7 | The system shall decide the winner based on the number of ateeempts | Technical |
 
 ## Low level requirements
  ID | Description | HLR ID | Status (Implemented/Future) |
  | ----- | ----- | ----- | -----|
- | LR01 | When user opens this application, he can acces two games ,1 for Tic-Tac-Toe game and 2 for game 2.If he/she selects other than this, the application shall exit. | HR01 | TBD |
- | LR02 | The system shall allow user to enter their names in Tic-Tac-Toe game | HR02 | TBD |
- | LR03 | The first player should enter 'X' and second player should enter 'O' and the system shall display the Tic-Tac-Toe board everytime. | HR03 | TBD |
- | LR04 | The system shall decide the winner(if any) else it should declare as draw. | HR04 | TBD |
-| LR05 | In guess the number game, system shall allow user/s to enter his/her details | HR05 | TBD |
-| LR06 | The system shall ask for the user input(guessed number) and will give the comparision result between the original number and the guessed number | HR06 | TBD |
-| LR07 | The systeem will decide the winner by comparing the number of tries taken to guess the number | HR07 | TBD |
+ | LRO1 | When user opens this application, he can acces two games ,1 for Tic-Tac-Toe game and 2 for game 2.If he/she selects other than this, the application shall exit. | HRO1 | TBD |
+ | LRO2 | The system shall allow user to enter their names in Tic-Tac-Toe game | HRO2 | TBD |
+ | LRO3 | The first player should enter 'X' and second player should enter 'O' and the system shall display the Tic-Tac-Toe board everytime. | HRO3 | TBD |
+ | LRO4 | The system shall decide the winner(if any) else it should declare as draw. | HRO4 | TBD |
+| LRO5 | In guess the number game, system shall allow user/s to enter his/her details | HRO5 | TBD |
+| LRO6 | The system shall ask for the user input(guessed number) and will give the comparision result between the original number and the guessed number | HRO6 | TBD |
+| LRO7 | The systeem will decide the winner by comparing the number of tries taken to guess the number | HRO7 | TBD |
