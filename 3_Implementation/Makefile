@@ -1,24 +1,13 @@
-PROJECT_NAME = game  # Name of the Project
+# Name of the Project
+PROJECT_NAME = game  
 
-BUILD = build # Output directory
-
-# to select OS
-ifdef OS
-	RM = del/q
-	FixPath = $(subst /,\,$1)
-	EXEC = exe
-else
-	ifeq ($(shell uname), Linux)
-		RM = rm -rf
-		FixPath = $1
-			EXEC = out
-	endif
-endif
+# Output directory
+BUILD = build
 
 # All source code files
 SRC = project_main.c\
 src/tictactoe.c\
-src/guessnumber.c
+src/guessnumber.c\
 
 # All test source files
 TEST_SRC = test/test.c\
@@ -69,6 +58,9 @@ test:$(BUILD)
 coverageCheck:$(BUILD)
 	g++ -fprofile-arcs -ftest-coverage -fPIC -O0 $(TEST_SRC)  $(INC) -o $(TEST_OUTPUT)
 	./$(TEST_OUTPUT)
+
+cppcheck:
+	cppcheck --enable=all $(SRC)
 
 # Remove all the built files, invoke by `make clean`
 clean:
