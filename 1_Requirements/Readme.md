@@ -23,9 +23,11 @@ The features of this game include a prompt which allows the user to select betwe
 
 The user can select either Guess the number or Tic-Tac-Toe
 
--> **Guess the number** In this game, the system will be assigned with a number and the user has to guess that number using the directions given by the system.
+#### Guess the number 
+In this game, the system will be assigned with a number and the user has to guess that number using the directions given by the system.
 
--> **Tic-Tac-Toe** In this game, users will take turns marking the Xs and Os in the 3x3 grid. The first mark must be X and the second is O. Players win by placing three of their marks in either a horizontal, vertical or diagonal row.
+#### Tic-Tac-Toe 
+In this game, users will take turns marking the Xs and Os in the 3x3 grid. The first mark must be X and the second is O. Players win by placing three of their marks in either a horizontal, vertical or diagonal row.
 
 ## Defining the System 
 
@@ -35,11 +37,11 @@ The user can select either Guess the number or Tic-Tac-Toe
 
 The system consists of two games, Guess the number and Tic-Tac-Toe. The user can enter his choice of his game and play accordingly.
 
-**Guess the number**
+### Guess the number
 
 Guess the number is a game in which the user has to guess a number assigned by the system by using the directions given by the system.
 
-**Tic-Tac-Toe**
+### Tic-Tac-Toe
 
 Tic-Tac-Toe is a tiny game created by Mike Stampone. It is a minimalist take on the classic paper-and-pencil game for two players. Users can take turns marking the Xs and Os in the 3x3 grid. The first mark must be X and the second is O. Players win by placing three of their marks in either a horizontal, vertical or diagonal row. If neither player can place three in a row, the program declares a cat game.
 
@@ -51,43 +53,37 @@ Tic-Tac-Toe is a tiny game created by Mike Stampone. It is a minimalist take on 
 
 ## 4W's and 1'H
 
-**Who**
+### Who
 
 Users of almost all age group can use this gaming application.
 
-**What**
+### What
 
 It is a gaming application, where users can select the game of their choice and play accordingly. There are only two games to select between  these two games i.e Wheel of fortune and Tic-Tac-Toe.
 
-**When**
+### When
 
 Anytime when the user wants to.
 
-**Where**
+### Where
 
 It can be played by people of any age group anywhere, from small kids in their playing hours to adults in their free time.
 
-**How**
+### How
 
 The system gives the user to choose the game which he wants to play. If the user selects Guess the number:
 
-1. System asks for the user to enter the number of players.
-
-2. Then the user/s have to enter their name/s and shall play.
-
-3. The user has to guess a number and the system will dtermine whether the guessed the number is equal or greater or lesser than the actual generated number.
-
-4. The user with less number of tries will win the game.
+ 1. System asks for the user to enter the number of players.
+ 2. Then the user/s have to enter their name/s and shall play.
+ 3. The user has to guess a number and the system will determine whether the guessed the number is equal or greater or lesser than the actual generated number.
+ 4. The user with less number of tries will win the game.
 
 If the user selects Tic-Tac-Toe:
 
-1. System asks for the username.
-
-2. The first player must mark X and the second player must mark O.
-
-3. Players win by placing three of their marks in either a horizontal, vertical or diagonal row. 
-
-4. If neither player can place three in a row, the program declares a cat game i.e a tie game. 
+ 1. System asks for the username.
+ 2. The first player must mark X and the second player must mark O.
+ 3. Players win by placing three of their marks in either a horizontal, vertical or diagonal row. 
+ 4. If neither player can place three in a row, the program declares a cat game i.e a tie game. 
 
 # Detail requirements
 ## High Level requirements
