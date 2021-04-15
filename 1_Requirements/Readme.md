@@ -15,88 +15,99 @@ The growth of modern devices like phones,tablets,laptop have increased the deman
 
 ## Cost and Features
 
-### Cost:
+### Cost
 
 
-### Features:
+### Features
 The features of this game include a prompt which allows the user to select between two games which are already present on the device.
 
-The user can select either Wheel of fortune or Tic-Tac-Toe
+The user can select either Guess the number or Tic-Tac-Toe
 
--> **Scrabble :** Scrabble is a classic board game played by two or four players together. The game is centered around word knowledge.
+-> **Guess the number** In this game, the system will be assigned with a number and the user has to guess that number using the directions given by the system.
 
--> **Tic-Tac-Toe :** In this game, users will take turns marking the Xs and Os in the 3x3 grid. The first mark must be X and the second is O. Players win by placing three of their marks in either a horizontal, vertical or diagonal row.
+-> **Tic-Tac-Toe** In this game, users will take turns marking the Xs and Os in the 3x3 grid. The first mark must be X and the second is O. Players win by placing three of their marks in either a horizontal, vertical or diagonal row.
 
-## Defining the System :
+## Defining the System 
 
 <p align="center">
   <img width="600" height="400" src="game_2.png">
 </p>
 
-The system consists of two games, Wheel of Fortune and Tic-Tac-Toe. The user can enter his choice of his game and play accordingly.
+The system consists of two games, Guess the number and Tic-Tac-Toe. The user can enter his choice of his game and play accordingly.
 
-**Scrabble :**
+**Guess the number**
 
-Scrabble is a classic board game played by two or four players together. The game is centered around word knowledge, and all players are assigned a number of tiles with different letters. Each player takes turns to add different tiles on the grid-board to form a word. Each word that you form increases your overall score. When all tiles are on the board, the person with the maximum number of points wins.
+Guess the number is a game in which the user has to guess a number assigned by the system by using the directions given by the system.
 
-**Tic-Tac-Toe :**
+**Tic-Tac-Toe**
 
 Tic-Tac-Toe is a tiny game created by Mike Stampone. It is a minimalist take on the classic paper-and-pencil game for two players. Users can take turns marking the Xs and Os in the 3x3 grid. The first mark must be X and the second is O. Players win by placing three of their marks in either a horizontal, vertical or diagonal row. If neither player can place three in a row, the program declares a cat game.
 
-# SWOT Analysis 
+## SWOT Analysis 
 
 <p align="center">
-  <img width="600" height="400" src="game_3.png">
+  <img width="600" height="400" src="SWOT.png">
 </p>
 
-# 4W's and 1'H
+## 4W's and 1'H
 
-**Who :**
+**Who**
 
 Users of almost all age group can use this gaming application.
 
-**What :**
+**What**
 
 It is a gaming application, where users can select the game of their choice and play accordingly. There are only two games to select between  these two games i.e Wheel of fortune and Tic-Tac-Toe.
 
-**When :**
+**When**
 
 Anytime when the user wants to.
 
-**Where :**
+**Where**
 
 It can be played by people of any age group anywhere, from small kids in their playing hours to adults in their free time.
 
-**How :**
+**How**
 
-The system gives the user to choose the game which he wants to play. If the user selects Scrabble:
+The system gives the user to choose the game which he wants to play. If the user selects Guess the number:
 
-1. System asks for the user to enter their respective user name since it can be played versus computer only.
-2. The first challenge is to pick and arrange tiles in a crossword format, from left to right or top to bottom.
-  The tiles already on the grid act as a framework for other words that you form.
-3. Secondly, each letter that you place must fit into words already played.
-4. And third, you must ensure that the words that you place earn you the maximum points.
+1. System asks for the user to enter the number of players.
+
+2. Then the user/s have to enter their name/s and shall play.
+
+3. The user has to guess a number and the system will dtermine whether the guessed the number is equal or greater or lesser than the actual generated number.
+
+4. The user with less number of tries will win the game.
 
 If the user selects Tic-Tac-Toe:
 
 1. System asks for the username.
+
 2. The first player must mark X and the second player must mark O.
+
 3. Players win by placing three of their marks in either a horizontal, vertical or diagonal row. 
+
 4. If neither player can place three in a row, the program declares a cat game i.e a tie game. 
 
 # Detail requirements
-## High Level requirements:
+## High Level requirements
 | ID | Description | Category |
 | ----- | ----- | ----- |
 | HR01 | System shall allow user to select between two games. | Technical |
 | HR02 | In Tic-Tac-Toe game, system shall allow user to enter his/her details. | Technical |
 | HR03 | The system should display the current status of the Tic-Tac-Toe board after every move from the user/s | Technical |
 | HR04 | System shall decide the winner | Technical |
+| HR05 | In Guess the number game, the system shall allow user to enter his/her details | Technical |
+| HR06 | The system shall tell the user about the current status of the guessed number | Technical |
+| HR07 | The system shall decide the winner based on the number of ateeempts | Technical |
 
-## Low level requirements:
+## Low level requirements
  ID | Description | HLR ID | Status (Implemented/Future) |
  | ----- | ----- | ----- | -----|
  | LR01 | When user opens this application, he can acces two games ,1 for Tic-Tac-Toe game and 2 for game 2.If he/she selects other than this, the application shall exit. | HR01 | TBD |
  | LR02 | The system shall allow user to enter their names in Tic-Tac-Toe game | HR02 | TBD |
  | LR03 | The first player should enter 'X' and second player should enter 'O' and the system shall display the Tic-Tac-Toe board everytime. | HR03 | TBD |
  | LR04 | The system shall decide the winner(if any) else it should declare as draw. | HR04 | TBD |
+| LR05 | In guess the number game, system shall allow user/s to enter his/her details | HR05 | TBD |
+| LR06 | The system shall ask for the user input(guessed number) and will give the comparision result between the original number and the guessed number | HR06 | TBD |
+| LR07 | The systeem will decide the winner by comparing the number of tries taken to guess the number | HR07 | TBD |

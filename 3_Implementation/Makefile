@@ -1,5 +1,8 @@
-PROJECT_NAME = game
+PROJECT_NAME = game  # Name of the Project
 
+BUILD = build # Output directory
+
+# to select OS
 ifdef OS
 	RM = del/q
 	FixPath = $(subst /,\,$1)
@@ -12,32 +15,65 @@ else
 	endif
 endif
 
-SRC = Implementation/project_main.c\
-Implementation/src/tictactoe.c\
-Implementation/src/game2.c\
+# All source code files
+SRC = project_main.c\
+src/tictactoe.c\
+src/guessnumber.c
 
-SRC2 = Implementation/src/tictactoe.c\
-Implementation/src/game2.c\
+# All test source files
+TEST_SRC = test/test.c\
+unity/unity.c\
+src/tictactoe.c\
+src/guessnumber.c
 
-TEST_SRC = Implementation/test/test.c\
-Implementation/unity/unity.c
+TEST_OUTPUT = build/Test_game.out
 
-INC_H = Implementation/inc
-INC_T = Implementation/unity
+# All include folders with header files
 
-all.exe :
-		gcc $(SRC) -I $(INC_H) -I $(INC_T) -o $(PROJECT_NAME).exe
+INC = -I inc\
+-I unity
 
-test :
-		gcc $(SRC2) $(TEST_SRC) -I $(INC_H) -I $(INC_T) -o testf.exe
+#Library Inlcudes
+#if working with CUnit 
+#INCLUDE_LIBS = -lcunit
+INCLUDE_LIBS =
 
+# Project Output name
+PROJECT_OUTPUT = build/game.out
 
+# Document files
+DOCUMENTATION_OUTPUT = documentation/html
 
-run : $(PROJECT_NAME).exe
-			$(PROJECT_NAME).exe
-			
-cppcheck:
-		cppcheck --enable=all $(SRC)
-		
-clean :
-		del /q *.exe
+# Default target built
+$(PROJECT_NAME):all
+
+# Run the target even if the matching name exists
+.PHONY: run clean test doc all
+
+all: $(SRC) $(BUILD)
+	gcc $(SRC)  $(INC) -o $(PROJECT_OUTPUT)
+
+# Call `make run` to run the application
+run:$(PROJECT_NAME)
+	./$(PROJECT_OUTPUT)
+
+# Document the code using Doxygen
+#doc:
+#	make -C ./documentation
+
+# Build and run the unit tests
+test:$(BUILD)
+	gcc $(TEST_SRC)  $(INC) -o $(TEST_OUTPUT)
+	./$(TEST_OUTPUT)
+#Coverage
+coverageCheck:$(BUILD)
+	g++ -fprofile-arcs -ftest-coverage -fPIC -O0 $(TEST_SRC)  $(INC) -o $(TEST_OUTPUT)
+	./$(TEST_OUTPUT)
+
+# Remove all the built files, invoke by `make clean`
+clean:
+	rm -rf $(BUILD) $(DOCUMENTATION_OUTPUT)
+
+# Create new build folder if not present
+$(BUILD):
+	mkdir build
